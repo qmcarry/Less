@@ -1,0 +1,5 @@
+#wrap .sjx {
+  border-width: 30px;
+  border-style: dashed dashed solid dashed;
+  border-color: transparent transparent pink transparent;
+}

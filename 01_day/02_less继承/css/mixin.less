@@ -1,0 +1,16 @@
+@import './mixin/gaofeng-mixin.less';
+#wrap{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    margin: 0 auto;
+    .inner{
+        &:nth-child(1){
+           .gaofeng(100px,100px,pink)
+        }
+        &:nth-child(2){
+             .gaofeng(50px,50px,yellow)
+        }
+    }
+}
